@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+/* * {
+  border: 1px solid red;
+} */
+
+body {
+  background: #a53838;
+  color: #fff;
+  font-family: 'Kiwi Maru', serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-family: 'Itim', cursive;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+p,span {
+  font-size: 2.6rem;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+header nav {
+  width: 70%;
+  font-family: 'Itim', cursive;
+}
+
+nav ul {
+  font-size: 2.6rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.kv {
+  background: url(./imgs/pckv-1.png) no-repeat center center / cover;
+  width: 100%;
+  height: 80vh;
+}
+
+article {
+  margin: 100px auto;
+}
+
+.menu {
+  display: flex;
+}
+
+
+
+/*-----------------------------------
+スマホ
+-----------------------------------*/
+@media screen and (max-width: 414px) {
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/*-----------------------------------
+アイパッド
+-----------------------------------*/
+@media screen and (max-width: 1112px) {
+
+
+
+
+}
